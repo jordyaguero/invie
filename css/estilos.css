@@ -1,0 +1,17 @@
+.menu {
+  font-size: 24px; }
+
+.cover {
+  background-image: url("../images/background.png");
+  color: white; }
+  .cover .cover__title {
+    font-size: 80px; }
+  .cover .cover__subtitle {
+    font-size: 24px; }
+
+.guitars-container {
+  color: #1F313C; }
+  .guitars-container .guitars__title {
+    font-size: 35px; }
+  .guitars-container .guitars-container__guitar h3 {
+    font-size: 50px; }
