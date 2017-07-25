@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Invie</title>
 </head>
 
 <body>
     <header class="header">
-        <figure>
+        <figure class="header__logotipo">
             <img src="images/invie.png" width="186" height="60" alt="Logotipo invie">
         </figure>
 
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#guitars">Guitarras</a></li>
@@ -24,15 +25,15 @@
     </header>
 
     <section class="cover">
-        <h1>Guitarras inviesibles</h1>
-        <h3>Se la estrella de rock, que siempre quisiste ser</h3>
+        <h1 class="cover__title">Guitarras inviesibles</h1>
+        <h3 class="cover__subtitle">Se la estrella de rock, que siempre quisiste ser</h3>
         <button>Conoce más</button>
     </section>
 
-    <section class="guitars" id="guitars">
-        <h2>Nuestras Guitarras</h2>
+    <section class="guitars-container" id="guitars">
+        <h2 class="guitars__title">Nuestras Guitarras</h2>
 
-        <article>
+        <article class="guitars-container__guitar">
             <img src="images/invie-acustica.png" width="200" alt="Guitarra Acústica">
             <h3>Invie Acústica</h3>
             <ol>
@@ -42,7 +43,7 @@
             </ol>
         </article>
 
-        <article>
+        <article class="guitars-container__guitar">
             <img src="images/invie-classic.png" width="200" alt=" Guitarra Clásica">
             <h3>Invie Classic</h3>
             <ol>
