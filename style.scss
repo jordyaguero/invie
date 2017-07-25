@@ -5,10 +5,15 @@ body
 {
   font-family: 'Allerta', sans-serif;
 }
+
+.header__logotipo, .menu, .menu__item
+{
+  display: inline-block;
+}
+
 .menu
 {
   font-size: 24px;
-
 }
 .cover
 {
