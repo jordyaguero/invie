@@ -4,10 +4,19 @@
 body
 {
   font-family: 'Allerta', sans-serif;
+  margin: 0;
+}
+
+.container
+{
   width: 80%;
   margin: 0 auto;
 }
 
+.header
+{
+  position: relative;
+}
 .header__logotipo, .menu, .menu__item
 {
   display: inline-block;
@@ -16,6 +25,8 @@ body
 .menu
 {
   font-size: 24px;
+  position: absolute;
+  right: 0;
 
   & .menu__item
   {
@@ -42,7 +53,15 @@ body
   }
   .cover__botton
   {
+    background: #fd324e;
+    background: linear-gradient(50deg, #fd324e, orangered);
+    border: none;
+    border-radius: 8px;
+    color: white;
     margin-bottom: 70px;
+    padding: .5em 1em;
+    font-weight: bold;
+    font-size: 1em;
   }
 }
 
@@ -60,5 +79,59 @@ body
   {
     font-size: 50px;
     margin-bottom: 30px;
+  }
+  .guitars-container__guitar
+  {
+    border: 1px solid #1F313C;
+    border-radius: 8px;
+    margin: 10px;
+   /*overflow: hidden;*/
+    padding: 10px;
+
+    .right
+    {
+      float: right;
+      position: relative;
+      top: -127px;
+    }
+    .left
+    {
+      float: left;
+      position: relative;
+      top: 80px;
+    }
+
+    .container-guitars-a
+    {
+      margin-left: 20px;
+
+      & ol
+      {
+        padding-left: 0;
+      }
+    }
+    .container-guitars-b
+    {
+      margin-left: 370px; // le di los 350 de la imagen mas 20 para que aplique 20px de margin
+
+      & ol
+      {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+.footer
+{
+  background: #273b47;
+  & .contacto__celular strong, .contacto__img, .contacto__correo strong
+  {
+    display: block;
+  }
+  .contacto__celular, .contacto__correo
+  {
+    color: white;
+    text-decoration: none;
   }
 }
