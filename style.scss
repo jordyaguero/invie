@@ -4,6 +4,8 @@
 body
 {
   font-family: 'Allerta', sans-serif;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .header__logotipo, .menu, .menu__item
@@ -14,20 +16,33 @@ body
 .menu
 {
   font-size: 24px;
+
+  & .menu__item
+  {
+    margin-left: 30px;
+  }
 }
 .cover
 {
   background-image: url("../images/background.png");
   color: white;
   font-family: 'Montserrat', sans-serif;
+  padding: 20px;
 
   & .cover__title
   {
-    font-size: 80px;
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 70px;
   }
   & .cover__subtitle
   {
     font-size: 24px;
+    margin-top: 0;
+  }
+  .cover__botton
+  {
+    margin-bottom: 70px;
   }
 }
 
@@ -41,8 +56,9 @@ body
     font-family: 'Montserrat', sans-serif;
   }
 
-  .guitars-container__guitar h3
+  .guitars-container__guitar--title
   {
     font-size: 50px;
+    margin-bottom: 30px;
   }
 }

@@ -1,26 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta");
 body {
-  font-family: 'Allerta', sans-serif; }
+  font-family: 'Allerta', sans-serif;
+  width: 80%;
+  margin: 0 auto; }
 
 .header__logotipo, .menu, .menu__item {
   display: inline-block; }
 
 .menu {
   font-size: 24px; }
+  .menu .menu__item {
+    margin-left: 30px; }
 
 .cover {
   background-image: url("../images/background.png");
   color: white;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px; }
   .cover .cover__title {
-    font-size: 80px; }
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 70px; }
   .cover .cover__subtitle {
-    font-size: 24px; }
+    font-size: 24px;
+    margin-top: 0; }
+  .cover .cover__botton {
+    margin-bottom: 70px; }
 
 .guitars-container {
   color: #1F313C; }
   .guitars-container .guitars__title {
     font-size: 35px;
     font-family: 'Montserrat', sans-serif; }
-  .guitars-container .guitars-container__guitar h3 {
-    font-size: 50px; }
+  .guitars-container .guitars-container__guitar--title {
+    font-size: 50px;
+    margin-bottom: 30px; }
