@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta");
 body {
   font-family: 'Allerta', sans-serif;
@@ -19,6 +20,12 @@ body {
   right: 0; }
   .menu .menu__item {
     margin-left: 30px; }
+    .menu .menu__item::before {
+      content: "♦";
+      font-size: 20px;
+      margin-right: 5px;
+      line-height: 50px;
+      color: blue; }
 
 .cover {
   background-image: url("../images/background.png");
@@ -140,3 +147,20 @@ body {
       margin-top: 10px; }
   .footer .intereses label {
     font-size: 12px; }
+
+main {
+  margin: 30px 0; }
+
+table {
+  width: 100%; }
+  table th {
+    text-align: left;
+    background: #273b47;
+    padding: 10px 20px;
+    color: white; }
+  table td {
+    padding: 20px; }
+
+table, th, td {
+  border: 1px solid #273b47;
+  border-collapse: collapse; }

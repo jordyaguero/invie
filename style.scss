@@ -31,6 +31,15 @@ body
   & .menu__item
   {
     margin-left: 30px;
+
+    &::before
+    {
+      content: "♦";
+      font-size: 20px;
+      margin-right: 5px;
+      line-height: 50px;
+      color: blue;
+    }
   }
 }
 .cover
@@ -197,3 +206,32 @@ body
   }
 
 }
+
+main
+{
+  margin: 30px 0;
+}
+table
+{
+  width: 100%;
+  
+  th
+  {
+    text-align: left;
+    background: #273b47;
+    padding: 10px 20px;
+    color: white;
+  }
+  td
+  {
+    padding: 20px;
+  }
+}
+
+table, th, td
+{
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+
+

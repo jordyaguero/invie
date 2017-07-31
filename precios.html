@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Compra tus mejores guitarras invie en nuestra pagina">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Los mejores precios de guitarras</title>
+</head>
+<body>
+
+    <header class="header container">
+        <figure class="header__logotipo">
+            <img src="images/invie.png" width="186" height="60" alt="Logotipo invie">
+        </figure>
+
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a href="index.html">Home</a></li>
+                <li class="menu__item"><a href="index.html#guitars">Guitarras</a></li>
+                <li class="menu__item"><a href="precios.html">Precios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <table>
+                <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Precio</th>
+                    <th>Descripcion</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Invie Classic</td>
+                    <td>$100000</td>
+                    <td>Una guitarra muy pro</td>
+                </tr>
+                <tr>
+                    <td>Invie Classic</td>
+                    <td>$100000</td>
+                    <td>Una guitarra muy pro</td>
+                </tr>
+                <tr>
+                    <td>Invie Classic</td>
+                    <td>$100000</td>
+                    <td>Una guitarra muy pro</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="contacto">
+                <img class="contacto__img" src="images/invie-white.png" alt="logo invie-white">
+                <a class="contacto__celular" href="tel:+51960706650"><strong>Celular</strong><span>960706650</span></a>
+                <a class="contacto__correo" href="mailto:jordy_unt@live.com"><strong>e-mail</strong><span>jordy_unt@live.com</span></a>
+            </div>
+            <form class="formulario">
+
+                <div class="col1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="e-mail" name="email" required placeholder="Tu correo">
+                    <div class="sexo">
+                        <label for="hombre">
+                            <input type="radio" name="sexo" id="hombre" value="hombre" checked> Hombre
+                        </label>
+                        <label for="mujer">
+                            <input type="radio" name="sexo" id="mujer" value="mujer"> Mujer
+                        </label>
+                    </div>
+                    <div class="intereses">
+                        <label for="cotizacion">
+                            <input type="checkbox" id="cotizacion" name="intereses"  value="cotizacion" checked> Cotizacion
+                        </label>
+                        <label for="reclamos">
+                            <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+                        </label>
+
+
+                        <label for="comentarios">
+                            <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+                        </label>
+                        <label for="otros">
+                            <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col2">
+                    <label for="asunto"> Asunto
+                        <textarea name="asunto" id="asunto" cols="30" rows="10"></textarea>
+                    </label>
+                    <input type="submit" value="Enviar" class="cover__botton">
+                </div>
+            </form>
+        </div>
+    </footer>
+
+</body>
+</html>
