@@ -11,11 +11,61 @@ body
 {
   width: 80%;
   margin: 0 auto;
+  position: relative;
+}
+
+.background
+{
+  background-image: url("../images/background.png");
+  background-size: cover;
+}
+
+main
+{
+  margin: 50px 0;
+}
+table
+{
+  width: 100%;
+
+  th
+  {
+    text-align: left;
+    background: #273b47;
+    padding: 10px 20px;
+    color: white;
+  }
+  td
+  {
+    padding: 20px;
+  }
+}
+
+table, th, td
+{
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+
+input, textarea
+{
+  outline: 0;
+  padding: .2em;
+
+  &:focus
+  {
+    background: lightgray;
+  }
 }
 
 .header
 {
   position: relative;
+
+  & .header__logotipo
+  {
+    margin-left: 0;
+  }
 }
 .header__logotipo, .menu, .menu__item
 {
@@ -27,33 +77,43 @@ body
   font-size: 24px;
   position: absolute;
   right: 0;
+  top: 15px;
 
   & .menu__item
   {
     margin-left: 30px;
 
+    & .menu__item--ancla
+    {
+      color: white;
+      text-decoration: none;
+    }
     &::before
     {
-      content: "♦";
-      font-size: 20px;
+      content: "■";
+      font-size: 10px;
       margin-right: 5px;
-      line-height: 50px;
-      color: blue;
+      color: white;
     }
   }
 }
 .cover
 {
-  background-image: url("../images/background.png");
   color: white;
   font-family: 'Montserrat', sans-serif;
   padding: 20px;
+  height: 450px;
 
   & .cover__title
   {
     font-size: 70px;
     margin-bottom: 0;
     margin-top: 70px;
+
+    & span
+    {
+      text-decoration: underline;
+    }
   }
   & .cover__subtitle
   {
@@ -65,19 +125,22 @@ body
 .cover__botton
 {
   background: #fd324e;
-  background: linear-gradient(50deg, #fd324e, orangered);
+  background: linear-gradient(top left, #fe344e, #ff7250);
   border: none;
-  border-radius: 8px;
+  border-radius: 12px;
   color: white;
   margin-bottom: 70px;
   padding: .5em 1em;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 1em;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .guitars-container
 {
   color: #1F313C;
+  margin-bottom: 3em;
 
   .guitars__title
   {
@@ -94,10 +157,13 @@ body
   {
     border: 1px solid #1F313C;
     border-radius: 8px;
-    margin: 10px;
    /*overflow: hidden;*/
     padding: 10px;
 
+    & li
+    {
+      margin-left: 15px;
+    }
     .right
     {
       float: right;
@@ -108,21 +174,25 @@ body
     {
       float: left;
       position: relative;
-      top: 80px;
     }
 
     .container-guitars-a
     {
       margin-left: 20px;
+      position: relative;
+      bottom: 40px;
 
       & ol
       {
         padding-left: 0;
       }
     }
+
     .container-guitars-b
     {
       margin-left: 370px; // le di los 350 de la imagen mas 20 para que aplique 20px de margin
+      position: relative;
+      bottom: 40px;
 
       & ol
       {
@@ -132,9 +202,21 @@ body
   }
 }
 
+.guitars-container__guitar.a
+{
+  height: 212px;
+  margin: 10px 10px 30px 10px;
+}
+
+.guitars-container__guitar.b
+{
+  height: 250px;
+}
+
 .footer
 {
   background: #273b47;
+  padding: 30px 10px 0 10px;
 
   .container
   {
@@ -147,6 +229,7 @@ body
     display: flex;
     flex-wrap: wrap;
     width: 300px;
+    height: 200px;
     align-items: center;
 
     & .contacto__celular, & .contacto__correo
@@ -169,7 +252,6 @@ body
     display: flex;
     width: 400px;
     color: white;
-    padding: 50px 10px;
 
     & label, .sexo, .intereses
     {
@@ -207,31 +289,5 @@ body
 
 }
 
-main
-{
-  margin: 30px 0;
-}
-table
-{
-  width: 100%;
-  
-  th
-  {
-    text-align: left;
-    background: #273b47;
-    padding: 10px 20px;
-    color: white;
-  }
-  td
-  {
-    padding: 20px;
-  }
-}
-
-table, th, td
-{
-  border: 1px solid #273b47;
-  border-collapse: collapse;
-}
 
 
