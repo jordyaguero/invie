@@ -60,47 +60,54 @@
         </article>
     </section>
 
-    <footer class="footer container">
-        <div class="contacto">
-            <img class="contacto__img" src="images/invie-white.png" alt="logo invie-white">
-            <a class="contacto__celular" href="tel:+51960706650"><strong>Celular</strong><span>960706650</span></a>
-            <a class="contacto__correo" href="mailto:jordy_unt@live.com"><strong>e-mail</strong><span>jordy_unt@live.com</span></a>
-        </div>
-        <form class="formulario">
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
-            <label for="e-mail">E-mail</label>
-            <input type="email" id="e-mail" name="email" required placeholder="Tu correo">
-            <div class="sexo">
-                <label for="hombre">
-                    <input type="radio" name="sexo" id="hombre" value="hombre" checked> Hombre
-                </label>
-                <label for="mujer">
-                    <input type="radio" name="sexo" id="mujer" value="mujer"> Mujer
-                </label>
+    <footer class="footer">
+        <div class="container">
+            <div class="contacto">
+                <img class="contacto__img" src="images/invie-white.png" alt="logo invie-white">
+                <a class="contacto__celular" href="tel:+51960706650"><strong>Celular</strong><span>960706650</span></a>
+                <a class="contacto__correo" href="mailto:jordy_unt@live.com"><strong>e-mail</strong><span>jordy_unt@live.com</span></a>
             </div>
-            <div class="intereses">
-                <label for="cotizacion">
-                    <input type="checkbox" id="cotizacion" name="intereses"  value="cotizacion" checked> Cotizacion
-                </label>
-                <label for="reclamos">
-                    <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
-                </label>
-                <label for="comentarios">
-                    <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
-                </label>
-                <label for="otros">
-                    <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
-                </label>
-            </div>
+            <form class="formulario">
 
-            <div>
-                <label for="asunto"> Asunto
-                    <textarea name="asunto" id="asunto" cols="30" rows="10"></textarea>
-                </label>
-                <input type="submit" value="Enviar">
-            </div>
-        </form>
+                <div class="col1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="e-mail" name="email" required placeholder="Tu correo">
+                    <div class="sexo">
+                        <label for="hombre">
+                            <input type="radio" name="sexo" id="hombre" value="hombre" checked> Hombre
+                        </label>
+                        <label for="mujer">
+                            <input type="radio" name="sexo" id="mujer" value="mujer"> Mujer
+                        </label>
+                    </div>
+                    <div class="intereses">
+                        <label for="cotizacion">
+                            <input type="checkbox" id="cotizacion" name="intereses"  value="cotizacion" checked> Cotizacion
+                        </label>
+                        <label for="reclamos">
+                            <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+                        </label>
+
+
+                        <label for="comentarios">
+                            <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+                        </label>
+                        <label for="otros">
+                            <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col2">
+                    <label for="asunto"> Asunto
+                        <textarea name="asunto" id="asunto" cols="30" rows="10"></textarea>
+                    </label>
+                    <input type="submit" value="Enviar" class="cover__botton">
+                </div>
+            </form>
+        </div>
     </footer>
 </body>
 

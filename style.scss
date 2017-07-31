@@ -51,18 +51,19 @@ body
     font-size: 24px;
     margin-top: 0;
   }
-  .cover__botton
-  {
-    background: #fd324e;
-    background: linear-gradient(50deg, #fd324e, orangered);
-    border: none;
-    border-radius: 8px;
-    color: white;
-    margin-bottom: 70px;
-    padding: .5em 1em;
-    font-weight: bold;
-    font-size: 1em;
-  }
+}
+
+.cover__botton
+{
+  background: #fd324e;
+  background: linear-gradient(50deg, #fd324e, orangered);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 70px;
+  padding: .5em 1em;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 .guitars-container
@@ -125,6 +126,25 @@ body
 .footer
 {
   background: #273b47;
+
+  .container
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  & .contacto
+  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    align-items: center;
+
+    & .contacto__celular, & .contacto__correo
+    {
+      margin: 15px 15px 15px 0;
+    }
+  }
   & .contacto__celular strong, .contacto__img, .contacto__correo strong
   {
     display: block;
@@ -134,4 +154,46 @@ body
     color: white;
     text-decoration: none;
   }
+
+  & .formulario
+  {
+    display: flex;
+    width: 400px;
+    color: white;
+    padding: 50px 10px;
+
+    & label, .sexo, .intereses
+    {
+      margin-bottom: 10px;
+    }
+    & .sexo
+    {
+      margin-top: 10px;
+    }
+  }
+
+  .col1, .col2
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col1
+  {
+    margin-right: 30px;
+  }
+  .col2
+  {
+    align-items: flex-start;
+    & textarea
+    {
+      margin-top: 10px;
+    }
+  }
+
+  .intereses label
+  {
+    font-size: 12px;
+  }
+
 }
