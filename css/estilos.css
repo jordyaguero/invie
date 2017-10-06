@@ -86,7 +86,7 @@ input, textarea {
 
 .cover__botton {
   background: #fd324e;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(left, top), color-stop(#fe344e), to(#ff7250));
+  background: -webkit-gradient(linear, left top, right bottom, from(#fe344e), to(#ff7250));
   background: -webkit-linear-gradient(top left, #fe344e, #ff7250);
   background: -o-linear-gradient(top left, #fe344e, #ff7250);
   background: linear-gradient(top left, #fe344e, #ff7250);
