@@ -1,0 +1,85 @@
+commit 489a256ecb7ef3ff1d78fbaef9ab735265d5171c
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Mon Jul 31 18:03:32 2017 -0500
+
+    puliendo detalles
+
+commit 88e87171b4204b4c00a48c77ec7adf669494e1ab
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Mon Jul 31 12:15:23 2017 -0500
+
+    create precios.html and dando styles
+
+commit da55081b29844b54de560614d52e337f8547f341
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Mon Jul 31 11:33:24 2017 -0500
+
+    add flexbox en footer
+
+commit fd95acbdc10d2b833c789370ee612090edd14818
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Wed Jul 26 16:36:26 2017 -0500
+
+    aplicando float, position y add footer
+
+commit 86071e26e4cc84bb573cdb2b6e7d8a6e39d5dc56
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Wed Jul 26 11:49:17 2017 -0500
+
+    aplicando modelo de caja a nuestro proyecto
+
+commit 38dc5db2183ffe9f3e2f0c14216c5132c3d8f26c
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Tue Jul 25 18:11:20 2017 -0500
+
+    adding display:inline-block
+
+commit 582b7b5255b91a842f74b92c1dba5ac4dcd9bbe4
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Tue Jul 25 17:36:12 2017 -0500
+
+    optimizando fonts of google
+
+commit 8fce6be7558e12ff5718fb9eab229c07047e2ba6
+Merge: d09d3ad 7440f73
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Tue Jul 25 17:34:21 2017 -0500
+
+    Merge branch 'master' of github.com:jordyaguero/invie
+    optimizando fonts of google
+
+commit d09d3ad6506d6d7685c3b4567397c9a50ab01573
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Tue Jul 25 17:25:02 2017 -0500
+
+    optimizando fonts of google
+
+commit 7440f73a71fe6d83dae5f915c42df7d2382ccc22
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Tue Jul 25 17:25:02 2017 -0500
+
+    adding google fonts
+
+commit b4a6386b93eee700a8e8f0cc0284abff8128e463
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Tue Jul 25 17:06:03 2017 -0500
+
+    adding background, colores and size of fonts
+
+commit 6f3235c8a74f7a8a7b0ba0b64d3956e8cabb0001
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Tue Jul 25 11:59:08 2017 -0500
+
+    adding estilos.css and add class to index.html
+
+commit 444c8132106cc572b14d21684f93f38b6ab0d37b
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Tue Jul 25 11:17:38 2017 -0500
+
+    add home and images
+
+commit 811c406e931812d003ad04cb372f9f393584ed15
+Author: jordyaguero <jordytiradotorres@hotmail.com>
+Date:   Tue Jul 25 10:19:42 2017 -0500
+
+    Preparando area de trabajo

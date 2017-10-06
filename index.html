@@ -15,10 +15,10 @@
 
         <header class="header container">
             <figure class="header__logotipo">
-                <img src="images/invie.png" width="186" height="60" alt="Logotipo invie">
+                <img src="images/invie.png" srcset="images/invie.png 1x, images/invie2x.png 2x" width="186" height="60" alt="Logotipo invie">
             </figure>
-
-            <nav class="menu">
+            <span id="burguer-bottom" class="icon-bars  burguer-bottom"></span>
+            <nav id="menu" class="menu">
                 <ul class="menu__lista">
                     <li class="menu__item"><a class="menu__item--ancla" href="index.html">Home</a></li>
                     <li class="menu__item"><a class="menu__item--ancla" href="#guitars">Guitarras</a></li>
@@ -28,7 +28,7 @@
         </header>
 
         <div class="container">
-            <h1 class="cover__title">Guitarras <span>invie</span>sibles</h1>
+            <h1 class="cover__title  title-guitarra">Guitarras <span>invie</span>sibles</h1>
             <h3 class="cover__subtitle">Sé la estrella de rock, que siempre quisiste ser</h3>
             <a class="cover__botton" href="#guitars">Conoce más</a>
         </div>
@@ -38,8 +38,14 @@
     <section class="guitars-container container" id="guitars">
         <h2 class="guitars__title">Nuestras Guitarras</h2>
 
+        <div class="video-demo">
+            <div id="videoInvie" class="video-responsive-container">
+                <iframe class="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/R1dW8M4EqYY" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
         <article class="guitars-container__guitar a">
-            <img class="right" src="images/invie-acustica.png" width="350" alt="Guitarra Acústica">
+            <img class="right" data-src="images/invie-acustica.png|images/invie-acustica2x.png" width="350" height="350" alt="Guitarra Acústica">
             <div class="container-guitars-a">
                 <h3 class="guitars-container__guitar--title">Invie Acústica</h3>
                 <ol>
@@ -51,7 +57,7 @@
         </article>
 
         <article class="guitars-container__guitar b">
-            <img class="left" src="images/invie-classic.png" width="350" alt=" Guitarra Clásica">
+            <img class="left" data-src="images/invie-classic.png|images/invie-classic2x.png" width="350" alt=" Guitarra Clásica">
             <div class="container-guitars-b">
                 <h3 class="guitars-container__guitar--title">Invie Classic</h3>
                 <ol>
@@ -66,7 +72,7 @@
     <footer class="footer">
         <div class="container">
             <div class="contacto">
-                <img class="contacto__img" src="images/invie-white.png" alt="logo invie-white">
+                <img class="contacto__img" data-src="images/invie-white.png|images/invie-white2x.png" alt="logo invie-white">
                 <a class="contacto__celular" href="tel:+51960706650"><strong>Celular</strong><span>960706650</span></a>
                 <a class="contacto__correo" href="mailto:jordy_unt@live.com"><strong>e-mail</strong><span>jordy_unt@live.com</span></a>
             </div>
@@ -112,6 +118,10 @@
             </form>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+    <script src="js/hammer.js"></script>
+    <script src="js/myscript.js"></script>
 </body>
 
 </html>

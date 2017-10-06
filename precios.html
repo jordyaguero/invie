@@ -10,23 +10,31 @@
 </head>
 <body>
 
-    <header class="header background">
-        <div class="container">
+<section class="cover background">
+    <header class="header  container">
+       <!-- <div class="container">-->
             <figure class="header__logotipo">
                 <img src="images/invie.png" width="186" height="60" alt="Logotipo invie">
             </figure>
 
-            <nav class="menu">
+            <span id="burguer-bottom" class="icon-bars  burguer-bottom"></span>
+            <nav id="menu" class="menu">
                 <ul class="menu__lista">
                     <li class="menu__item"><a class="menu__item--ancla" href="index.html">Home</a></li>
                     <li class="menu__item"><a class="menu__item--ancla" href="index.html#guitars">Guitarras</a></li>
                     <li class="menu__item"><a class="menu__item--ancla" href="precios.html">Precios</a></li>
                 </ul>
             </nav>
-        </div>
+        <!--</div>-->
     </header>
+    <div class="container">
+        <h1 class="cover__title  title-guitarra">Guitarras <span>invie</span>sibles</h1>
+        <h3 class="cover__subtitle">Sé la estrella de rock, que siempre quisiste ser</h3>
+        <a class="cover__botton" href="index.html#guitars">Conoce más</a>
+    </div>
+</section>
 
-    <main>
+    <main class="tabla">
         <div class="container">
             <table>
                 <thead>
@@ -107,5 +115,8 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+    <script src="js/hammer.js"></script>
+    <script src="js/myscript.js"></script>
 </body>
 </html>
