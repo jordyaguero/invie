@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta");
-@import url("https://file.myfontastic.com/4q23fejXacVzukqEKZSTbA/icons.css");
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -88,7 +86,7 @@ input, textarea {
 
 .cover__botton {
   background: #fd324e;
-  background: -webkit-gradient(linear, left top, right bottom, from(#fe344e), to(#ff7250));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(left, top), color-stop(#fe344e), to(#ff7250));
   background: -webkit-linear-gradient(top left, #fe344e, #ff7250);
   background: -o-linear-gradient(top left, #fe344e, #ff7250);
   background: linear-gradient(top left, #fe344e, #ff7250);
